@@ -5,6 +5,7 @@ export const Container = styled.div`
   background-color: #27282f;
   color: #fff;
   min-width: 980px;
+  min-height: 900px;
   font-family: arial;
 
   h1 {

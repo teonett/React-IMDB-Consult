@@ -5,6 +5,7 @@ export const Container = styled.div`
   background-color: #27282f;
   color: #fff;
   min-width: 990px;
+  min-height: 700px;
   font-family: arial;
 `;
 
@@ -71,4 +72,19 @@ export const TableHeadColumn = styled.th<{ width?: number }>`
   width: ${(props) => (props.width ? `${props.width}px` : "auto")};
   padding: 10px 0;
   text-align: center;
+`;
+
+export const Button = styled.button`
+  cursor: pointer;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #fff;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  transition: 0.5s all ease-out;
+  &:hover {
+    background-color: #3d3f43;
+    color: white;
+  }
 `;

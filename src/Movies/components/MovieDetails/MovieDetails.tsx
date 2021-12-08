@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Theme from "../../../components/Theme";
 import { MovieDetail } from "../../../components/types/MovieDetail";
 import * as C from "./styles";
 
 const MovieDetails = () => {
+  const navigate = useNavigate();
   const [movie, setMovie] = useState<MovieDetail>();
   const getMovieRequest = async (idMovie: string) => {
     const url = `http://www.omdbapi.com/?i=${idMovie}&plot=full&apikey=263d22d8`;
@@ -17,6 +19,10 @@ const MovieDetails = () => {
     let idMovie = sessionStorage.getItem("idMovie") || "";
     getMovieRequest(idMovie);
   }, []);
+
+  const handleClickBack = () => {
+    navigate(`/`);
+  };
 
   return (
     <Theme>
@@ -35,6 +41,7 @@ const MovieDetails = () => {
                 <C.StyledPhoto src={movie?.Poster} />
               </td>
               <td>
+                <C.Button onClick={handleClickBack}>🏠</C.Button>
                 <C.Description>{movie?.Plot}</C.Description>
                 <C.Actions>
                   <C.Action>

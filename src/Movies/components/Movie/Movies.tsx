@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "../../../components/Header";
+import Loader from "../../../components/Loader/Loader";
 import SearchBox from "../../../components/SearchBox";
 import MovieCard from "../MovieCard";
 import * as C from "./styles";

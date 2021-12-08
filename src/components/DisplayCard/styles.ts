@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 300px;
-  grid-template-rows: 210px 210px 80px;
+  grid-template-rows: 300px 300px;
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
   background: #000;
@@ -56,28 +56,4 @@ export const TextBody = styled.p`
   font-size: 15px;
   font-weight: 300;
   margin-top: 10px;
-`;
-
-export const StatWrapper = styled.div`
-  grid-area: stats;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background: #3d3f43;
-`;
-
-export const Stats = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-`;
-
-export const LinkText = styled.a`
-  color: #fff;
-  text-decoration: none;
 `;
