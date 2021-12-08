@@ -2,11 +2,11 @@
 
 Sample IMDB Api Database Consult of Movies, TV Series and Games
 
-<img src="https://github.com/teonett/React-Photo-Gallery-Firebase/blob/main/public/assets/Galeria-Fotos-0.png">
+<img src="https://github.com/teonett/React-IMDB-Consult/blob/main/public/assets/1.png">
 
-<img src="https://github.com/teonett/React-Photo-Gallery-Firebase/blob/main/public/assets/Galeria-Fotos-0.png">
+<img src="https://github.com/teonett/React-IMDB-Consult/blob/main/public/assets/2.png">
 
-<img src="https://github.com/teonett/React-Photo-Gallery-Firebase/blob/main/public/assets/Galeria-Fotos-0.png">
+<img src="https://github.com/teonett/React-IMDB-Consult/blob/main/public/assets/3.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
