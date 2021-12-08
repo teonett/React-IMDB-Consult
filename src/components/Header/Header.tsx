@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <C.Container>
       <h1>CONSULTA IMDB API</h1>
-      <p>Consulta de filmes, séries e jogos.</p>
+      <p>
+        Obtenha informações sobre filmes, elenco, slogans, enredos, equipe,
+        resenhas, classificações e muito mais.
+      </p>
     </C.Container>
   );
 };

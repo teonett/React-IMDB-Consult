@@ -10,11 +10,12 @@ const SearchBox = (props: { setSearchValue: any }) => {
           <input
             type="text"
             name="searchBox"
-            placeholder="Type to search...."
+            placeholder="Digite um nome a ser pesquisado...."
             onChange={(event) => {
               return props.setSearchValue(event.target.value);
             }}
           />
+          **Consulta limitada a 10 títulos por vez.
         </C.SearchForm>
       </C.Container>
     </Theme>

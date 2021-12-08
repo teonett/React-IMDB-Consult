@@ -24,6 +24,6 @@ export const ScreenWarning = styled.div`
 
 export const MoviesList = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 `;

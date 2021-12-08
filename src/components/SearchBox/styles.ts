@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #16195c;
+  background-color: #27282f;
   color: #fff;
-  min-width: 980px;
+  min-width: 380px;
   font-family: arial;
 `;
 

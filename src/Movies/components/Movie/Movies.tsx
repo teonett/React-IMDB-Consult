@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../../../components/Header";
 import SearchBox from "../../../components/SearchBox";
-import MoviesList from "../MoviesList";
+import MovieCard from "../MovieCard";
 import * as C from "./styles";
 
 const Movies = () => {
@@ -37,7 +37,7 @@ const Movies = () => {
           <div>Carregando...</div>
         </C.ScreenWarning>
       )}
-      <MoviesList movies={movies} />
+      <MovieCard movies={movies} />
     </C.Container>
   );
 };
