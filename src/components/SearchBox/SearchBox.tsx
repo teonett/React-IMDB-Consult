@@ -17,6 +17,7 @@ const SearchBox = (props: { setSearchValue: any }) => {
           />
           **Consulta limitada a 10 títulos por vez.
         </C.SearchForm>
+        *** Clique no card para detalhes ***
       </C.Container>
     </Theme>
   );
