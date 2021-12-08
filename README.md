@@ -8,6 +8,8 @@ Sample IMDB Api Database Consult of Movies, TV Series and Games
 
 <img src="https://github.com/teonett/React-IMDB-Consult/blob/main/public/assets/3.png">
 
+<img src="https://github.com/teonett/React-IMDB-Consult/blob/main/public/assets/4.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
